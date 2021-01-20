@@ -1,0 +1,50 @@
+/* Selector de etiqueta: se aplican a todas las etiqyetas, para dar estilo general, no se recomienda para estilo personalziado*/
+p{
+    color: red;
+}
+
+h1{
+    color: blue;
+}
+
+/*Selectores de clase */
+.title{
+    color: green;
+}
+
+.text{
+    color: blueviolet;
+}
+
+#title{
+    color: aqua;
+}
+
+#text{
+    color: blueviolet
+}
+
+/* selectores universdales*/
+/*
+*{
+    color: yellow;
+}
+
+lo anterior aplicaría a todo el documento*/
+
+/* selectores de atributo */
+
+/* selecciona los elementos que tiene ese atributo en este caso href */
+[href="#"]{
+    color: red;
+}
+
+/* da color verde a los valores que contengan la palbra verde*/
+[class~="verde"]{
+    color: green;
+}
+
+/*da color azul a los atributos que solo tiene la plaabra verde*/
+[class|="verde"]{
+    color: blue;
+}
