@@ -48,3 +48,33 @@ lo anterior aplicaría a todo el documento*/
 [class|="verde"]{
     color: blue;
 }
+
+/*seleccionar los elemento que que empiezan por el valor dado */
+[class^="rojo"]{
+    color: palegreen;
+}
+
+/* seleccionar el valor que termina por el valor daod */
+[class$="rojo"]{
+    color: rgb(60, 151, 60);
+}
+
+/* seleccionar el valor que termina por el valor daod */
+[class*="rojo"]{
+    color: rgb(223, 16, 71);
+}
+
+/*selectores combinadores*/
+
+/*selector de hermano adyacente*/
+h1 + h2{
+    color: red;
+}
+
+h2 + h2{
+    color: royalblue;
+}
+
+/*selector hermano general*/
+/*selector descendente*/
+/*selector hijo directo*/
