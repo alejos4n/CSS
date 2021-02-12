@@ -1,0 +1,21 @@
+body{
+    background-color: #ccc;
+    background-image: url("/img/imagen1.jpg");
+}
+
+#caja{
+    border: 5px solid black;
+    padding: 10px;
+    color: green;
+}
+
+h2{
+    border: 5px solid green;
+}
+
+#parra{
+    border: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
