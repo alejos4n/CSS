@@ -4,9 +4,16 @@
     padding: 0px;
 }
 
+body{
+    padding: 40px;
+}
 
-#caja1,
-#caja2{
+#cajas{
+    max-width: 1030px;
+    border: 1px solid black;
+}
+
+.caja{
     display: block;
     width: 250px;
     height: 250px;
@@ -21,7 +28,7 @@
     float: left;
 }
 
-p{
+.class caja p{
     font-weight: bold;    
     text-align: center;
     font-size: 20px;
@@ -29,3 +36,7 @@ p{
     line-height: 250px;
 }
 
+.clearfix{
+    float: none;
+    clear: both;
+}
