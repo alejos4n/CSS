@@ -62,6 +62,7 @@
     width: 30%;
     border: 1px solid red;
     min-height: 500px;
+    max-height: 650px;
     text-align: center;
 }
 
@@ -70,17 +71,28 @@
     border-bottom: 1px solid #ccc;
     padding: 10px;
     color: #444;
+    text-shadow: 0px 0px 5px black;
 }
 
 #contenido .caja{
     width: 40%;
     height: 250px;
-    background-color: red;
-    border: 5px solid white;
+    background-color: #ccc;
+    border: 1px solid gray;
     color: white;
     float: left;
     margin: 20px;
     margin-left: 40px;
+    text-align: center;
+    line-height: 200px;
+    color: #444;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 10px;
+}
+
+.sombra-interior{
+    box-shadow: 5px 5px 10px gray inset !important;
 }
 
 #footer{
